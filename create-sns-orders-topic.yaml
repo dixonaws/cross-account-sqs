@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "create-sns-orders-topic, creates a topic that sends messages to an SQS queue in another account"
+Resources:
+  ordersIncomingSnsTopic:
+    Type: "AWS::SNS::Topic"
+    Properties:
+      DisplayName: "orders-incoming"
+      TopicName: "orders-incoming"
