@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sns:ListTopics",
+        "sns:AddPermission"
+      ],
+      "Resource": [
+        "*"
+      ],
+      "Sid": "e060978757f94b1b9ece912ff67286d0"
+    }
+  ]
+}
